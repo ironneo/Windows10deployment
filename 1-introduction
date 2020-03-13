@@ -2,3 +2,25 @@ Analyze your device and app readiness for Windows 10
 https://www.microsoft.com/en-us/videoplayer/embed/RE3iiE9?pid=RE3iiE9-ax-58-id-oneplayer&postJsllMsg=true&autoplay=false&mute=false&loop=false&market=en-us&playFullScreen=false
 
 Use Microsoft readiness assessment tools
+
+
+##Connect a Shared Mailbox from O365 to Outlook via IMAP
+
+Add a new profile, and give it a name
+Select “connect to a different account” in the bottom right hand corner
+Select “Manual setup or additional server types
+Select POP or IMAP
+Fill out the following information 
+Your Name – What ever you want
+Email address – shared@adam-hand.com
+Account Type – IMAP
+Incoming mail server – outlook.office365.com
+Outgoing mail server – smtp.office365.com
+User name – adam@adam-hand.com\shared@adam-hand.com
+Password – The password for adam@adam-hand.com
+Tick the box for remember password
+Select the more settings button
+Under the Outgoing Server tab select “My outgoing server (SMTP) requires authentication” and “Use same settings as my incoming mail server”
+Select the Advanced tab
+Under incoming server IMAP enter – 993 and SSL/TLS
+Under Outgoing server (SMTP) enter – 587 and STARTTLS
