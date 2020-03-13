@@ -5,6 +5,7 @@ Use Microsoft readiness assessment tools
 
 
 ##Connect a Shared Mailbox from O365 to Outlook via IMAP
+https://adam-hand.com/2017/07/25/connect-a-shared-mailbox-from-o365-to-outlook-via-imap/
 
 Add a new profile, and give it a name
 Select “connect to a different account” in the bottom right hand corner
